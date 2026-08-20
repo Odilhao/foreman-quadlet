@@ -6,8 +6,9 @@ collections:
   - community.postgresql
   - name: containers.podman
     version: ">=1.16.4"
-  - name: https://github.com/theforeman/forklift
+  - name: https://github.com/Odilhao/forklift
     type: git
+    version: vagrant-role-macos-qemu-support
   - name: theforeman.foreman
     version: ">=5.11.0"
   - name: theforeman.operations
